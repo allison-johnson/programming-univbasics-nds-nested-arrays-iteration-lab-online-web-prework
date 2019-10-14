@@ -10,7 +10,7 @@ def join_ingredients(src)
   src.each do |food_pair|
     sentences << "I love #{food_pair[0]} and #{food_pair[1]} on my pizza"
   end #each
-  sentence
+  sentences
 end
 
 def find_greater_pair(src)
